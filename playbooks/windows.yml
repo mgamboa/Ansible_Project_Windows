@@ -4,6 +4,7 @@
   tasks:
     - name: Ping test
       ansible.builtin.ping:
-      
-    - name: Run a command on Windows
-      ansible.windows.win_command: whoami
+
+    - name: Run the 'whoami' executable with the '/all' argument
+      ansible.windows.win_command:
+      cmd: whoami.exe /all
