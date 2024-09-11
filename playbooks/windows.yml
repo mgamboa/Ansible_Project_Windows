@@ -7,4 +7,4 @@
 
     - name: Run the 'whoami' executable with the '/all' argument
       ansible.windows.win_command:
-      cmd: whoami.exe /all
+        cmd: whoami.exe /all
