@@ -1,2 +1,4 @@
 ---
 # tasks file for example
+- name: Run a command on Windows
+  ansible.windows.win_command: whoami
