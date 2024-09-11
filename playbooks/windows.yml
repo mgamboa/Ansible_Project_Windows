@@ -4,3 +4,6 @@
   tasks:
     - name: Ping test
       ansible.builtin.ping:
+      
+    - name: Run a command on Windows
+      ansible.windows.win_command: whoami
